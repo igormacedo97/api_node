@@ -1,0 +1,17 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "Criando api com node",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "Igor Macêdo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}
